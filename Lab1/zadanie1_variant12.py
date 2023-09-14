@@ -1,6 +1,9 @@
 import sys
 import random
 
+def print_list(list_to_print):
+    print(list_to_print)
+
 def gen_random_list(l_len, min_rn, max_rn):
     return random.sample(range(min_rn, max_rn), l_len)
 
